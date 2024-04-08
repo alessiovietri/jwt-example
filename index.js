@@ -35,6 +35,7 @@ const jwtToken = jwt.sign(
     /* Fine options */
 );
 
+// "Restituisco" il token all'utente
 console.log("Il tuo token è: ", jwtToken);
 
 const splittedJwtToken = jwtToken.split('.');
